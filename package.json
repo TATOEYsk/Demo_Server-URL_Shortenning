@@ -1,0 +1,21 @@
+{
+  "name": "fullstack-url-shortening",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "client":"npm start --prefix client",
+    "dev":"concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Satjapol",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.2",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "nodemon": "^2.0.13",
+    "uniqid": "^5.4.0"
+  }
+}
